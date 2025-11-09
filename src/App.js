@@ -11,26 +11,11 @@ const sectionData = [
     text: 'ARQUITECTURAS DE COMPUTO', // Texto principal visible siempre
     moreInfo: {
       text: `
-1.1 Modelos de Arquitecturas\n
-* Clásicas (Arquitectura de Von Neumann): Utiliza un **único bus** para datos e instrucciones, creando un "cuello de botella".
-* Segmentadas (Pipelining): Mejora el rendimiento dividiendo la ejecución de una instrucción en varias **etapas concurrentes**.
-* Multiprocesamiento: Usa **múltiples CPUs** para ejecutar varias instrucciones en paralelo.\n
-
-1.2 Análisis de Componentes
-* **1.2.1 Unidad Central de Procesamiento (CPU):** Ejecuta instrucciones y coordina. Incluye la **ALU** (operaciones aritméticas y lógicas) y **Registros** (memoria temporal de alta velocidad).
-* **1.2.2 Memoria:**
-    * **Principal (RAM):** Memoria de trabajo volátil.
-    * **Cache:** Memoria muy rápida entre CPU y RAM para reducir latencia (L1, L2, L3).\n
-    
-* **1.2.3 Sistema E/S:** Mecanismos de comunicación con periféricos.
-    * E/S Programada: CPU gestiona y espera.
-    * E/S por Interrupciones: Periférico avisa a la CPU cuando está listo.
-    * **DMA (Acceso Directo a Memoria):** Transfiere grandes bloques de datos entre periférico y memoria **sin intervención de la CPU**.
-    * Canales y Procesadores E/S: Módulos dedicados a la gestión de E/S.\n
-* **1.2.4 Buses:** Conjunto de líneas para transferencia de datos.
-    * Tipos: **Datos**, **Direcciones**, **Control**.
-    * Estructura: **Jerarquía** para optimizar el tráfico.
-||`, // Texto expandido - añade lo que quieras
+La Arquitectura de Cómputo se organiza en modelos estructurales y componentes clave. Los principales Modelos de Arquitectura incluyen las Clásicas, dominadas por la Arquitectura de Von Neumann, que utiliza un único bus compartido para datos e instrucciones, lo que a menudo genera un "cuello de botella". Para superar esta limitación, se desarrollaron las arquitecturas Segmentadas (Pipelining), que dividen la ejecución de instrucciones en etapas concurrentes, y el Multiprocesamiento, que emplea múltiples CPUs para ejecutar tareas en estricto paralelo.
+El Análisis de Componentes se centra en el hardware fundamental, comenzando por la Unidad Central de Procesamiento (CPU). Esta unidad alberga la Unidad Aritmética Lógica (ALU), encargada de las operaciones aritméticas y lógicas, y los Registros, que son memorias internas de alta velocidad para almacenar datos temporales. La Memoria se divide en la Principal (RAM), que es la memoria de trabajo volátil del sistema, y la Memoria Cache, una pequeña y rápida memoria intermedia (organizada en niveles L1, L2, L3) que reduce el tiempo de acceso a los datos más usados por la CPU.
+Finalmente, el Sistema E/S (Entrada/Salida) gestiona la comunicación con periféricos. Las técnicas para esta gestión incluyen la E/S Programada, donde la CPU se ocupa de todo el proceso; la E/S mediante Interrupciones, donde el periférico avisa a la CPU cuando está listo; y el Acceso Directo a Memoria (DMA), que permite la transferencia de grandes bloques de datos entre memoria y periférico sin la intervención constante de la CPU. Sistemas más avanzados utilizan Canales y Procesadores E/S dedicados. Toda esta comunicación se realiza a través de Buses (conjuntos de líneas) que se clasifican en Bus de Datos, Bus de Direcciones y Bus de Control, y se organizan en una Jerarquía para optimizar el rendimiento y la velocidad de las transferencias.
+`, 
+// Texto expandido - añade lo que quieras
       imageExtra: 'https://proyectotictac.com/wp-content/uploads/2025/04/arquitectura-del-computador-personal-elementos-internos-componentes-y-externos-perifericos.png' // Imagen opcional para el expandido - pon tu tercera foto si quieres
     }
   },
