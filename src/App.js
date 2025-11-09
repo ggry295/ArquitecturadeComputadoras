@@ -10,22 +10,23 @@ const sectionData = [
     imageSrc2: 'https://www.yarquitectura.com/wp-content/uploads/2023/06/que-es-arquitectura-de-computadoras-1024x497.jpg', // Segunda imagen principal - pon tu segunda foto aquí
     text: 'ARQUITECTURAS DE COMPUTO', // Texto principal visible siempre
     moreInfo: {
-      text: `Expande para ver más: añade tus detalles técnicos, testimonios o lo que imagines aquí:
-1.1 Modelos de Arquitecturas
+      text: `
+1.1 Modelos de Arquitecturas\n
 * Clásicas (Arquitectura de Von Neumann): Utiliza un **único bus** para datos e instrucciones, creando un "cuello de botella".
 * Segmentadas (Pipelining): Mejora el rendimiento dividiendo la ejecución de una instrucción en varias **etapas concurrentes**.
-* Multiprocesamiento: Usa **múltiples CPUs** para ejecutar varias instrucciones en paralelo.
+* Multiprocesamiento: Usa **múltiples CPUs** para ejecutar varias instrucciones en paralelo.\n
 
 1.2 Análisis de Componentes
 * **1.2.1 Unidad Central de Procesamiento (CPU):** Ejecuta instrucciones y coordina. Incluye la **ALU** (operaciones aritméticas y lógicas) y **Registros** (memoria temporal de alta velocidad).
 * **1.2.2 Memoria:**
     * **Principal (RAM):** Memoria de trabajo volátil.
-    * **Cache:** Memoria muy rápida entre CPU y RAM para reducir latencia (L1, L2, L3).
+    * **Cache:** Memoria muy rápida entre CPU y RAM para reducir latencia (L1, L2, L3).\n
+    
 * **1.2.3 Sistema E/S:** Mecanismos de comunicación con periféricos.
     * E/S Programada: CPU gestiona y espera.
     * E/S por Interrupciones: Periférico avisa a la CPU cuando está listo.
     * **DMA (Acceso Directo a Memoria):** Transfiere grandes bloques de datos entre periférico y memoria **sin intervención de la CPU**.
-    * Canales y Procesadores E/S: Módulos dedicados a la gestión de E/S.
+    * Canales y Procesadores E/S: Módulos dedicados a la gestión de E/S.\n
 * **1.2.4 Buses:** Conjunto de líneas para transferencia de datos.
     * Tipos: **Datos**, **Direcciones**, **Control**.
     * Estructura: **Jerarquía** para optimizar el tráfico.
