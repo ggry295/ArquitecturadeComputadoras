@@ -6,7 +6,7 @@ import TechSection from './components/TechSection';
 // Aquí editas tus 6 secciones: cambia las rutas de las dos imágenes principales (imageSrc1 y imageSrc2), el texto principal, y en moreInfo añade texto extra y una imagen opcional para el contenido expandido
 const sectionData = [
   {
-    imageSrc1: 'OIP (1).jpg', // Primera imagen principal - cambia por tu URL o path
+    imageSrc1: 'https://www.profesionalreview.com/wp-content/uploads/2022/06/Tachyum-anuncia-una-CPU-de-128-nucleos-con-57-GHz-y-950-W-TDP_2.jpg', // Primera imagen principal - cambia por tu URL o path
     imageSrc2: 'https://via.placeholder.com/400x300?text=Imagen+Secundaria+1', // Segunda imagen principal - pon tu segunda foto aquí
     text: 'Este es el primer bloque, pon aquí tu descripción genial sobre tecnología y futuro.', // Texto principal visible siempre
     moreInfo: {
