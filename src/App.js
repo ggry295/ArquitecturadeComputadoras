@@ -31,7 +31,7 @@ const sectionData = [
     * Tipos: **Datos**, **Direcciones**, **Control**.
     * Estructura: **Jerarquía** para optimizar el tráfico.
 ||`, // Texto expandido - añade lo que quieras
-      imageExtra: 'https://via.placeholder.com/500x400?text=Imagen+Extra+1' // Imagen opcional para el expandido - pon tu tercera foto si quieres
+      imageExtra: 'https://proyectotictac.com/wp-content/uploads/2025/04/arquitectura-del-computador-personal-elementos-internos-componentes-y-externos-perifericos.png' // Imagen opcional para el expandido - pon tu tercera foto si quieres
     }
   },
   {
