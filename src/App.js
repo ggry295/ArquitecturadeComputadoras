@@ -22,7 +22,7 @@ Finalmente, el Sistema E/S (Entrada/Salida) gestiona la comunicación con perif�
   {
     imageSrc1: 'https://via.placeholder.com/400x300?text=Imagen+Principal+2', // Tu primera imagen del segundo bloque
     imageSrc2: 'https://via.placeholder.com/400x300?text=Imagen+Secundaria+2', // Segunda imagen
-    text: 'Segundo bloque listo para tu contenido innovador y dinámico.', // Texto principal
+    text: 'Estructuras y funcionamiento del CPU', // Texto principal
     moreInfo: {
       text: 'Expande para ver más: añade tus detalles técnicos, testimonios o lo que imagines aquí.', // Texto extra
       imageExtra: 'https://via.placeholder.com/500x400?text=Imagen+Extra+2' // Imagen extra opcional
