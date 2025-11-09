@@ -8,7 +8,7 @@ const sectionData = [
   {
     imageSrc1: 'https://www.profesionalreview.com/wp-content/uploads/2022/06/Tachyum-anuncia-una-CPU-de-128-nucleos-con-57-GHz-y-950-W-TDP_2.jpg', // Primera imagen principal - cambia por tu URL o path
     imageSrc2: 'https://via.placeholder.com/400x300?text=Imagen+Secundaria+1', // Segunda imagen principal - pon tu segunda foto aquí
-    text: 'Este es el primer bloque, pon aquí tu descripción genial sobre tecnología y futuro.', // Texto principal visible siempre
+    text: 'ARQUITECTURAS DE COMPUTO', // Texto principal visible siempre
     moreInfo: {
       text: 'Aquí va la info extra que quieres mostrar al expandir: describe más detalles, características o lo que sea. Edita este texto libremente.', // Texto expandido - añade lo que quieras
       imageExtra: 'https://via.placeholder.com/500x400?text=Imagen+Extra+1' // Imagen opcional para el expandido - pon tu tercera foto si quieres
