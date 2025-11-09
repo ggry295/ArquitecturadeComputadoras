@@ -20,12 +20,17 @@ Finalmente, el Sistema E/S (Entrada/Salida) gestiona la comunicación con perif�
     }
   },
   {
-    imageSrc1: 'https://via.placeholder.com/400x300?text=Imagen+Principal+2', // Tu primera imagen del segundo bloque
-    imageSrc2: 'https://via.placeholder.com/400x300?text=Imagen+Secundaria+2', // Segunda imagen
+    imageSrc1: 'https://1.bp.blogspot.com/-492R4ho8Lkc/VwMFSQWQwNI/AAAAAAAAAAo/yXtRESGTNjsrb2AwACw4wRJOtZ-t-vCRg/w1200-h630-p-k-no-nu/unidad-central-de-proceso.jpg', // Tu primera imagen del segundo bloque
+    imageSrc2: 'https://thumbnails.genially.com/5f64c3777076fa0f334e8e70/screenshots/e7b0cecb-c5a0-4faf-8cc1-c01f23f07502.jpg', // Segunda imagen
     text: 'Estructuras y funcionamiento del CPU', // Texto principal
     moreInfo: {
-      text: 'Expande para ver más: añade tus detalles técnicos, testimonios o lo que imagines aquí.', // Texto extra
-      imageExtra: 'https://via.placeholder.com/500x400?text=Imagen+Extra+2' // Imagen extra opcional
+      text: `
+ Organización Interna y Funcionamiento de la CPU
+El estudio de la Arquitectura del Procesador comienza con la Organización del Procesador (2.1), que describe la disposición interna de sus unidades funcionales, como la Unidad Aritmética Lógica (ALU), la Unidad de Control y el conjunto de registros.
+Esta organización depende directamente de la Estructura de Registros (2.2). Los registros son la memoria más rápida dentro de la CPU y se clasifican en tres tipos principales: Registros visibles para el usuario (2.2.1), que pueden ser manipulados por el programador (como los acumuladores y registros de propósito general); Registros de control (2.2.2), utilizados por la Unidad de Control para gobernar el funcionamiento del procesador y del sistema (como el Contador de Programa o el Registro de Instrucción); y Registros de estados (2.2.3), que contienen información sobre el resultado de la última operación realizada por la ALU, como flags de desbordamiento, cero o signo.
+El funcionamiento básico de la CPU se define por el Ciclo de la Instrucción (2.3), cuyo modelo fundamental es el Ciclo Fetch - Decode - Execute (FDE) (2.3.1). En este ciclo, la CPU primero Fetch (busca) la instrucción de la memoria, luego la Decode (decodifica) para determinar qué operación realizar, y finalmente la Execute (ejecuta). La eficiencia de este ciclo se mejora drásticamente con la Segmentación (Pipelining) (2.3.2), una técnica que divide el ciclo FDE en etapas superpuestas para procesar múltiples instrucciones simultáneamente. El estudio de las Características y funciones (2.3.3) del ciclo de instrucción abarca la temporización, el control de las unidades y el manejo de interrupciones.
+Un aspecto crucial en la ejecución de instrucciones son los Modos de Direccionamiento (2.4), que definen cómo la CPU interpreta la parte de dirección de una instrucción para localizar el dato (operando). El modo de direccionamiento particular depende del procesador (2.4.1). Finalmente, el Estudio de la CPU (2.5) profundiza en todos estos elementos, analizando en detalle el diseño y el desempeño del núcleo del procesador.`, // Texto extra
+      imageExtra: 'https://concepto.de/wp-content/uploads/2014/08/CPU-e1551228076500.jpg' // Imagen extra opcional
     }
   },
   {
