@@ -45,12 +45,25 @@ Finalmente, la elección y el diseño del equipo se adaptan a diversos Ambientes
     }
   },
   {
-    imageSrc1: 'https://via.placeholder.com/400x300?text=Imagen+Principal+4', // Cuarta imagen 1
-    imageSrc2: 'https://via.placeholder.com/400x300?text=Imagen+Secundaria+4', // Imagen 2
+    imageSrc1: 'https://www.profesionalreview.com/wp-content/uploads/2020/04/Procesador-paralelo.jpg', // Cuarta imagen 1
+    imageSrc2: 'https://ordenadores-y-portatiles.com/wp-content/uploads/2020/05/procesamiento-paralelo2.gif', // Imagen 2
     text: 'Procesamiento Paralelo', // Texto principal
     moreInfo: {
-      text: 'Contenido adicional: pon aquí listas, párrafos o lo que necesites para expandir.', // Texto extra
-      imageExtra: 'https://via.placeholder.com/500x400?text=Imagen+Extra+4'
+      text: `El Procesamiento Paralelo (4.0) se enfoca en la ejecución simultánea de múltiples tareas o instrucciones para aumentar la velocidad y eficiencia de la computación. Los Aspectos básicos de la computación paralela (4.1) incluyen conceptos como la concurrencia, la sincronización y la comunicación entre los diferentes procesadores.
+El tema se desarrolla al estudiar los Tipos de computación paralela (4.2). Esto abarca su Clasificación, a menudo basada en la taxonomía de Flynn (SIMD, MIMD, etc.), y la distinción entre Computadoras Secuenciales (el modelo tradicional de un solo procesador) y las estructuras paralelas. También se analiza la Organización de direcciones de memoria para asegurar que los múltiples procesadores puedan acceder a los datos de manera correcta.
+Los sistemas paralelos se dividen en dos grandes categorías, dependiendo de cómo manejan la memoria:
+Sistemas de Memoria Compartida (4.3)
+En estos sistemas, todos los procesadores comparten un espacio de direcciones de memoria único.
+Multiprocesadores: Son el tipo más común, donde varias CPUs acceden a la misma memoria.
+Redes de interconexión dinámica: Utilizan una topología de conmutación que puede cambiar activamente la ruta de comunicación entre procesadores y memoria, permitiendo flexibilidad.
+Medio compartido: Se refiere a un bus común que todos los procesadores usan para comunicarse y acceder a la memoria (similar a una arquitectura de Von Neumann extendida al paralelismo).
+Conmutadas: Se refiere a sistemas que utilizan switches o conmutadores para establecer las conexiones de comunicación, permitiendo múltiples rutas concurrentes sin depender de un único bus.
+Sistemas de Memoria Distribuida (4.4)
+En estos sistemas, cada procesador tiene su propia memoria local y los procesadores se comunican mediante el envío de mensajes a través de una red.
+Multicomputadoras: Son sistemas compuestos por múltiples computadoras interconectadas, donde cada una funciona independientemente.
+Redes de interconexión estáticas: Utilizan una topología fija (como mallas, anillos o hipercubos) para conectar los procesadores. Las rutas de comunicación no cambian dinámicamente.
+Finalmente, el estudio de Casos de estudio (4.5) permite aplicar estos conceptos a ejemplos reales y analizar cómo se implementan los principios de procesamiento paralelo en arquitecturas comerciales o de supercomputación.`, // Texto extra
+      imageExtra: 'https://adictec.com/wp-content/uploads/2024/04/Funcionamiento-procesamiento-paralelo.png'
     }
   },
   {
