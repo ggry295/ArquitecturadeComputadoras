@@ -47,7 +47,7 @@ Finalmente, la elección y el diseño del equipo se adaptan a diversos Ambientes
   {
     imageSrc1: 'https://via.placeholder.com/400x300?text=Imagen+Principal+4', // Cuarta imagen 1
     imageSrc2: 'https://via.placeholder.com/400x300?text=Imagen+Secundaria+4', // Imagen 2
-    text: 'Cuarto bloque con espacio para más ideas tech.', // Texto principal
+    text: 'Procesamiento Paralelo', // Texto principal
     moreInfo: {
       text: 'Contenido adicional: pon aquí listas, párrafos o lo que necesites para expandir.', // Texto extra
       imageExtra: 'https://via.placeholder.com/500x400?text=Imagen+Extra+4'
