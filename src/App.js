@@ -24,8 +24,7 @@ Finalmente, el Sistema E/S (Entrada/Salida) gestiona la comunicación con perif�
     imageSrc2: 'https://thumbnails.genially.com/5f64c3777076fa0f334e8e70/screenshots/e7b0cecb-c5a0-4faf-8cc1-c01f23f07502.jpg', // Segunda imagen
     text: 'Estructuras y funcionamiento del CPU', // Texto principal
     moreInfo: {
-      text: `
- Organización Interna y Funcionamiento de la CPU
+      text: `Organización Interna y Funcionamiento de la CPU
 El estudio de la Arquitectura del Procesador comienza con la Organización del Procesador (2.1), que describe la disposición interna de sus unidades funcionales, como la Unidad Aritmética Lógica (ALU), la Unidad de Control y el conjunto de registros.
 Esta organización depende directamente de la Estructura de Registros (2.2). Los registros son la memoria más rápida dentro de la CPU y se clasifican en tres tipos principales: Registros visibles para el usuario (2.2.1), que pueden ser manipulados por el programador (como los acumuladores y registros de propósito general); Registros de control (2.2.2), utilizados por la Unidad de Control para gobernar el funcionamiento del procesador y del sistema (como el Contador de Programa o el Registro de Instrucción); y Registros de estados (2.2.3), que contienen información sobre el resultado de la última operación realizada por la ALU, como flags de desbordamiento, cero o signo.
 El funcionamiento básico de la CPU se define por el Ciclo de la Instrucción (2.3), cuyo modelo fundamental es el Ciclo Fetch - Decode - Execute (FDE) (2.3.1). En este ciclo, la CPU primero Fetch (busca) la instrucción de la memoria, luego la Decode (decodifica) para determinar qué operación realizar, y finalmente la Execute (ejecuta). La eficiencia de este ciclo se mejora drásticamente con la Segmentación (Pipelining) (2.3.2), una técnica que divide el ciclo FDE en etapas superpuestas para procesar múltiples instrucciones simultáneamente. El estudio de las Características y funciones (2.3.3) del ciclo de instrucción abarca la temporización, el control de las unidades y el manejo de interrupciones.
@@ -36,9 +35,12 @@ Un aspecto crucial en la ejecución de instrucciones son los Modos de Direcciona
   {
     imageSrc1: 'https://via.placeholder.com/400x300?text=Imagen+Principal+3', // Tercera sección imagen 1
     imageSrc2: 'https://via.placeholder.com/400x300?text=Imagen+Secundaria+3', // Imagen 2
-    text: 'Tercera sección: describe lo que quieras, como un pro.', // Texto visible
+    text: 'Ensamble y Componentes del Equipo', // Texto visible
     moreInfo: {
-      text: 'Más info en detalle: usa este espacio para profundizar en el tema de esta sección.', // Edita el expandido
+      text: `La Selección de Componentes para el Ensamble de Equipo (3.0) requiere comprender las funciones de varios subsistemas clave. El Chip Set (3.1.1) es un conjunto de circuitos integrados en la placa madre que actúa como el "centro de control", gestionando el flujo de datos entre la CPU (3.1.2), la memoria y los periféricos. Su diseño incluye el Controlador de bus (3.1.2), que regula las transferencias de datos en los buses del sistema.
+La gestión de Entrada/Salida (E/S) (3.1.3) se complementa con las Interrupciones (3.1.4), que son señales asíncronas que permiten a los periféricos solicitar la atención de la CPU. El Controlador de Acceso Directo a Memoria (DMA) (3.1.5) es esencial para transferir grandes bloques de datos entre los periféricos y la memoria principal sin la intervención constante de la CPU. Los Circuitos de temporización (3.1.6), incluyendo el reloj del sistema, son cruciales para sincronizar todas las operaciones de la computadora. Finalmente, los Controladores de video (3.1.7) (tarjetas gráficas o chips integrados) gestionan la salida de gráficos hacia el monitor.
+Otros componentes fundamentales para la configuración incluyen el Almacenamiento (3.2), que abarca dispositivos como discos duros (HDD) o unidades de estado sólido (SSD) donde se guardan permanentemente los datos, y las Fuentes de alimentación (3.3), responsables de convertir la corriente alterna (AC) de la red eléctrica en la corriente continua (DC) requerida por los componentes internos del equipo.
+Finalmente, la elección y el diseño del equipo se adaptan a diversos Ambientes de Servicio (3.4). Esto incluye entornos de Negocios, que requieren fiabilidad y seguridad; la Industria, donde los equipos pueden necesitar ser robustos y capaces de controlar procesos; y el Comercio electrónico, que demanda alta disponibilidad y capacidad de procesamiento de transacciones en línea.`, // Edita el expandido
       imageExtra: 'https://via.placeholder.com/500x400?text=Imagen+Extra+3'
     }
   },
