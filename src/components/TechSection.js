@@ -42,7 +42,7 @@ const TechSection = ({ imageSrc1, imageSrc2, text, moreInfo, index, isExpanded, 
           className="text-white space-y-4"
         >
           <h3 className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
-            Sección {index + 1}
+            UNIDAD {index + 1}
           </h3>
           <p className="text-gray-200 leading-relaxed text-lg">
             {text}
