@@ -8,7 +8,7 @@ const sectionData = [
   {
     imageSrc1: 'https://www.profesionalreview.com/wp-content/uploads/2022/06/Tachyum-anuncia-una-CPU-de-128-nucleos-con-57-GHz-y-950-W-TDP_2.jpg', // Primera imagen principal - cambia por tu URL o path
     imageSrc2: 'https://www.yarquitectura.com/wp-content/uploads/2023/06/que-es-arquitectura-de-computadoras-1024x497.jpg', // Segunda imagen principal - pon tu segunda foto aquí
-    text: 'ARQUITECTURAS DE COMPUTO', // Texto principal visible siempre
+    text: 'Arquitectura de Computadoras', // Texto principal visible siempre
     moreInfo: {
       text: `
 La Arquitectura de Cómputo se organiza en modelos estructurales y componentes clave. Los principales Modelos de Arquitectura incluyen las Clásicas, dominadas por la Arquitectura de Von Neumann, que utiliza un único bus compartido para datos e instrucciones, lo que a menudo genera un "cuello de botella". Para superar esta limitación, se desarrollaron las arquitecturas Segmentadas (Pipelining), que dividen la ejecución de instrucciones en etapas concurrentes, y el Multiprocesamiento, que emplea múltiples CPUs para ejecutar tareas en estricto paralelo.
@@ -33,15 +33,15 @@ Un aspecto crucial en la ejecución de instrucciones son los Modos de Direcciona
     }
   },
   {
-    imageSrc1: 'https://via.placeholder.com/400x300?text=Imagen+Principal+3', // Tercera sección imagen 1
-    imageSrc2: 'https://via.placeholder.com/400x300?text=Imagen+Secundaria+3', // Imagen 2
+    imageSrc1: 'https://tse2.mm.bing.net/th/id/OIP.NoqOeqAQpkEQQ6nbWgl0NgHaEK?pid=Api&P=0&h=180', // Tercera sección imagen 1
+    imageSrc2: 'https://tse1.mm.bing.net/th/id/OIP.pX76-Xzq1Sce9bMCrx8iKQHaD4?pid=Api&P=0&h=180', // Imagen 2
     text: 'Ensamble y Componentes del Equipo', // Texto visible
     moreInfo: {
       text: `La Selección de Componentes para el Ensamble de Equipo (3.0) requiere comprender las funciones de varios subsistemas clave. El Chip Set (3.1.1) es un conjunto de circuitos integrados en la placa madre que actúa como el "centro de control", gestionando el flujo de datos entre la CPU (3.1.2), la memoria y los periféricos. Su diseño incluye el Controlador de bus (3.1.2), que regula las transferencias de datos en los buses del sistema.
 La gestión de Entrada/Salida (E/S) (3.1.3) se complementa con las Interrupciones (3.1.4), que son señales asíncronas que permiten a los periféricos solicitar la atención de la CPU. El Controlador de Acceso Directo a Memoria (DMA) (3.1.5) es esencial para transferir grandes bloques de datos entre los periféricos y la memoria principal sin la intervención constante de la CPU. Los Circuitos de temporización (3.1.6), incluyendo el reloj del sistema, son cruciales para sincronizar todas las operaciones de la computadora. Finalmente, los Controladores de video (3.1.7) (tarjetas gráficas o chips integrados) gestionan la salida de gráficos hacia el monitor.
 Otros componentes fundamentales para la configuración incluyen el Almacenamiento (3.2), que abarca dispositivos como discos duros (HDD) o unidades de estado sólido (SSD) donde se guardan permanentemente los datos, y las Fuentes de alimentación (3.3), responsables de convertir la corriente alterna (AC) de la red eléctrica en la corriente continua (DC) requerida por los componentes internos del equipo.
 Finalmente, la elección y el diseño del equipo se adaptan a diversos Ambientes de Servicio (3.4). Esto incluye entornos de Negocios, que requieren fiabilidad y seguridad; la Industria, donde los equipos pueden necesitar ser robustos y capaces de controlar procesos; y el Comercio electrónico, que demanda alta disponibilidad y capacidad de procesamiento de transacciones en línea.`, // Edita el expandido
-      imageExtra: 'https://via.placeholder.com/500x400?text=Imagen+Extra+3'
+      imageExtra: 'https://tse1.mm.bing.net/th/id/OIP.WcHfIhNqBeJyBxmVwd9gygHaE8?pid=Api&P=0&h=180'
     }
   },
   {
