@@ -75,15 +75,6 @@ Finalmente, el estudio de Casos de estudio (4.5) permite aplicar estos conceptos
       imageExtra: 'https://via.placeholder.com/500x400?text=Imagen+Extra+5'
     }
   },
-  {
-    imageSrc1: 'https://via.placeholder.com/400x300?text=Imagen+Principal+6', // Sexta imagen 1
-    imageSrc2: 'https://via.placeholder.com/400x300?text=Imagen+Secundaria+6', // Imagen 2
-    text: 'Último bloque: cierra con broche de oro tu historia.', // Texto principal
-    moreInfo: {
-      text: 'Cierre épico: añade tu conclusión o call to action en este texto expandido.', // Texto extra
-      imageExtra: 'https://via.placeholder.com/500x400?text=Imagen+Extra+6'
-    }
-  }
 ];
 
 const App = () => {
